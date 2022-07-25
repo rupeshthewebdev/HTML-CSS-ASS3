@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(202, 202, 202);
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(153, 151, 151);
+    margin: 0px 80px;
+    padding: 60px ;
+    font-size: 3rem;
+}
+
+.navdiv{
+    margin: 0px 80px;
+}
+
+.navbarr{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    background-color: grey;
+    margin-top: 8px;
+}
+
+a{
+    text-decoration: none;
+    background-color: grey;
+    color: black;
+}
+
+li{
+    list-style-type: none;
+    margin-left: 12px;
+    margin-bottom: 0px;
+    background-color: grey;
+}
+
+.outerdiv{
+    display: flex;
+    margin: 10px 80px;
+}
+
+.fdiv{
+    width: 50%;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.finfdiv{
+    margin: 5%;
+}
+
+.finfdiv h2{
+   text-align: center;
+   padding: 5%;
+   font-weight: bolder;
+   background-color:grey ;
+}
+
+.sinfdiv{
+    margin: 5%;
+}
+
+.sinfdiv p{
+     background-color:grey ;
+     line-height: 40px;
+}
+
+.sdiv{
+    width: 50%;
+    border: 1px solid black;
+    background-color: white;
+}
+.sdiv img{
+    margin: 5% 5% 0% 7%;
+ }
+
+ .image{
+    width: 85%;
+    height: 78%;
+    object-fit:cover;
+ }
+
+ .footer p{
+    text-align: center;
+    margin: 5px;
+    background-color:grey ;
+ }
+
+ .footer{
+    margin: 0px 80px;
+    background-color:grey ;
+ }
